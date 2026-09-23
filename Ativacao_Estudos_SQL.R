@@ -19,7 +19,7 @@ drv <- duckdb(dbdir = "quack.db")
 con <- dbConnect(drv)
 
 ############################
-# BANCO LOCAL
+# CONEXÃO DE BANCO LOCAL
 ############################
 
 con <- dbConnect(
